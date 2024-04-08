@@ -69,9 +69,40 @@ Você precisará provisionar um recurso **de serviços de IA do Azure** que este
     5. Altere a configuração de *Permitir acesso anônimo de Blob* para **Habilitado** e selecione **Salvar**.
 
   # Carregar documentos para o armazenamento do Azure.
+  
   1. No painel do menu esquerdo, selecione **Containers**.
 
+![storage-blob-1](https://github.com/WaldeniseMoraes/Laboratorio-4-consulta-de-dados/assets/161647255/f3ebf30b-2c99-42da-a93a-70d854946eb6)
 
   2. Selecione **+ Contêiner**. Um painel do seu lado direito é aberto.
   3. Insira as seguintes configurações e clique em **Criar**:
+
+     * **Nome**: Coffee-Reviews.
+     * **Nível de acesso público**: Container (acesso de leitura anônimo para containers e blobs).
+     * **Avançado**: *sem alterações*.
+
+  4. Em uma nova guia do navegador, baixe as avaliações de café compactadas em https://aka.ms/mslearn-coffee-reviews e extraia os arquivos para a pasta de *avaliações*.
+  5. No portal do Azure, selecione o contêiner de *avaliações de café*. No contêiner, selecione **Carregar**.
      
+![storage-blob-3](https://github.com/WaldeniseMoraes/Laboratorio-4-consulta-de-dados/assets/161647255/902fa1d5-9084-4136-91ad-52b306f7dfa7)
+
+ 7. No painel **Carregar blob**, selecione **Selecionar um arquivo**.
+ 8. Na janela do Explorer, selecione **todos** os arquivos na pasta de avaliações , selecione **Abrir** e, em seguida, selecione **Carregar**.
+
+![azure-search-wizard-1](https://github.com/WaldeniseMoraes/Laboratorio-4-consulta-de-dados/assets/161647255/b9842bd6-9197-4ded-9cf0-d4340d1cf95b)
+
+ 8. Depois que o upload for concluído, você poderá fechar o painel **Upload blob**. Seus documentos estão agora em seu contêiner de armazenamento de avaliações de café.
+
+# Indexar os documentos
+
+Depois de armazenar os documentos, você poderá usar o Azure AI Search para extrair insights dos documentos. O portal do Azure fornece um *assistente de importação de dados*. Com este assistente, você pode criar automaticamente um índice e um indexador para fontes de dados suportadas. Você usará o assistente para criar um índice e importar seus documentos de pesquisa do armazenamento para o índice do Azure AI Search.
+
+1. No portal do Azure, navegue até o recurso Azure AI Search. Na página **Visão geral**, selecione **Importar dados**.
+
+   ![6a-azure-container-upload-files](https://github.com/WaldeniseMoraes/Laboratorio-4-consulta-de-dados/assets/161647255/5b22b8d1-1631-43ca-ad48-3fd9d75bd26a)
+
+3. Na página **Conectar-se aos seus dados**, na lista **Fonte de Dados** , selecione **Azure Blob Storage**. Preencha os detalhes do armazenamento de dados com os seguintes valores:
+
+   * **Fonte de dados**: Armazenamento de Blobs do Azure.
+   * **Nome da fonte de dados**: coffee-customer-data.
+   * **Dados a extrair**: Conteúdo e metadados.
