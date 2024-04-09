@@ -225,3 +225,25 @@ Vamos ver o poder do armazenamento de conhecimento em ação. Ao executar o assi
 
 1. No portal do Azure, navegue de volta para a sua conta de armazenamento do Azure.
 2. No painel do menu esquerdo, selecione Containers . Selecione o contêiner **de armazenamento de conhecimento**.
+   
+![knowledge-store-blob-0](https://github.com/WaldeniseMoraes/Laboratorio-4-consulta-de-dados/assets/161647255/74241a14-18f8-443a-b408-664d40dd716b)
+
+3. Selecione qualquer um dos itens e clique no arquivo **objectprojection.json**.
+   
+![knowledge-store-blob-1](https://github.com/WaldeniseMoraes/Laboratorio-4-consulta-de-dados/assets/161647255/df3097f8-a830-4f1f-9b89-06655035cf93)
+
+4. Selecione **Editar** para ver o JSON produzido para um dos documentos do seu armazenamento de dados do Azure.
+
+![knowledge-store-blob-2](https://github.com/WaldeniseMoraes/Laboratorio-4-consulta-de-dados/assets/161647255/57d78b23-4c67-4845-a611-08e7728c75b3)
+
+5. Selecione a localização atual do blob de armazenamento no canto superior esquerdo da tela para retornar à conta de armazenamento *Containers*.
+
+![knowledge-store-blob-4](https://github.com/WaldeniseMoraes/Laboratorio-4-consulta-de-dados/assets/161647255/3efe0bf9-021e-44ad-af60-1d52aacf4d6b)
+
+6. Em *Containers* , selecione o contêiner *coffee-skillset-image-projection* . Selecione qualquer um dos itens.
+
+![knowledge-store-blob-5](https://github.com/WaldeniseMoraes/Laboratorio-4-consulta-de-dados/assets/161647255/aa46d282-605b-4b11-9b4c-647915aad789)
+
+
+
+
