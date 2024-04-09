@@ -244,6 +244,19 @@ Vamos ver o poder do armazenamento de conhecimento em ação. Ao executar o assi
 
 ![knowledge-store-blob-5](https://github.com/WaldeniseMoraes/Laboratorio-4-consulta-de-dados/assets/161647255/aa46d282-605b-4b11-9b4c-647915aad789)
 
+7. Selecione qualquer um dos arquivos *.jpg*. Selecione **Editar** para ver a imagem armazenada no documento. Observe como todas as imagens dos documentos são armazenadas desta forma.
 
+![knowledge-store-blob-3](https://github.com/WaldeniseMoraes/Laboratorio-4-consulta-de-dados/assets/161647255/b4d53ebe-47c0-44e4-8fbe-65a48bd9fb72)
 
+8. Selecione a localização atual do blob de armazenamento no canto superior esquerdo da tela para retornar à conta de armazenamento *Containers*.
+   
+9. Selecione **Navegador de armazenamento** no painel esquerdo e selecione **Tabelas**. Há uma tabela para cada entidade no índice. Selecione a tabela *coffeeSkillsetKeyPhrases*.
+
+Observe as frases-chave que o armazenamento de conhecimento conseguiu capturar do conteúdo das avaliações. Muitos dos campos são chaves, portanto você pode vincular as tabelas como um banco de dados relacional. O último campo mostra as frases-chave que foram extraídas pelo conjunto de habilidades.
+
+## Conclusão
+***
+O laboratório “AI Search” é uma excelente oportunidade para aprender sobre as capacidades de busca de IA do Azure e como elas podem ser aplicadas para melhorar a busca e análise de dados. Ao concluir o laboratório, os participantes estarão equipados com o conhecimento necessário para implementar soluções de busca de IA em suas próprias aplicações e sistemas.
+
+[Para mais informações e para coeçar o laboratório, visite o repositório oficial do curso Azure AI Fundamentals no GitHub](https://github.com/MicrosoftLearning/mslearn-ai-fundamentals)
 
